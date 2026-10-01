@@ -2,8 +2,8 @@
 # Casks/parquetry.rb of the tiroger/homebrew-tap repository.
 #   brew install --cask tiroger/tap/parquetry
 cask "parquetry" do
-  version "0.2.0"
-  sha256 "0d28ff7d3f75cd8e3053cffb8cc40fabb7b88dcd75820c3eeba451a53866e9ec"
+  version "0.3.0"
+  sha256 "a49b1f842d5b866c444bf0e5856a42024d120af511bd07cfbdafb24abf025e06"
 
   url "https://github.com/tiroger/parquetry/releases/download/v#{version}/Parquetry-#{version}.zip"
   name "Parquetry"
@@ -16,7 +16,6 @@ cask "parquetry" do
   end
 
   auto_updates true # Sparkle
-  depends_on arch: :arm64 # Apple Silicon builds only, for now
   depends_on macos: :ventura # macOS 13 or newer
 
   app "Parquetry.app"
