@@ -2,8 +2,8 @@
 # Casks/parquetry.rb of the tiroger/homebrew-tap repository.
 #   brew install --cask tiroger/tap/parquetry
 cask "parquetry" do
-  version "0.3.0"
-  sha256 "a49b1f842d5b866c444bf0e5856a42024d120af511bd07cfbdafb24abf025e06"
+  version "0.4.0"
+  sha256 "67b49d681a209aef4353c3e96a76849e9079c6c192aa7765ad56c99d72e52ebc"
 
   url "https://github.com/tiroger/parquetry/releases/download/v#{version}/Parquetry-#{version}.zip"
   name "Parquetry"
